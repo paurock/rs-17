@@ -1,0 +1,127 @@
+.rs-products {
+  margin-top: 20px;
+}
+.rs-17 .rs-products .row {
+  min-height: 630px;
+  height: 630px;
+}
+
+/*First column styles*/
+.rs-17 .rs-products .first {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.rs-17 .rs-products .second {
+  min-height: 630px;
+}
+
+.rs-17 .rs-products .content h1 {
+  font-size: 3rem;
+}
+
+.rs-17 .rs-products .content h2 {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.rs-17 .rs-products .content p {
+  font-size: 1.7rem;
+  margin-top: 1.8rem;
+}
+
+.rs-17 .rs-products .content ul.products-list {
+  position: relative;
+  list-style: none;
+  margin-top: 3.8rem;
+}
+
+.rs-17 .rs-products ul.products-list li::before {
+  content: '→';
+  position: relative;
+  left: -5px;
+}
+
+.rs-17 .rs-products .content li {
+  list-style-type: none;
+  margin-top: 1.4rem;
+  margin-left: -2.5rem;
+}
+
+.rs-17 .rs-products .content li>a {
+  text-decoration: none;
+  color: white;
+}
+
+.rs-17 .rs-products .navigation-block {
+  margin-top: 3rem;
+}
+
+/*Second column styles*/
+.rs-17 .rs-products .product-items-list .product-item {
+  display: inline-block;
+  margin-top: -45px;
+  margin-bottom: 80px;
+  margin-right: 30px;
+  max-width: 24%;
+  width: 300px;
+  min-height: 400px;
+}
+
+.rs-17 .rs-products .product-items-list .item-caption {
+  margin-top: 30px;
+}
+
+.rs-17 .rs-products .product-items-list .item-caption h4 {
+  font-size: 1.7rem;
+  color: white;
+  min-height: 70px;
+}
+
+.rs-17 .rs-products .product-items-list .item-description {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.rs-17 .rs-products .product-items-list .product-item .item-image {
+  max-width: 300px;
+  text-align: center;
+}
+
+.rs-17 .rs-products .product-items-list .product-item .item-image img {
+  width: 100%;
+}
+
+/*Media Queries*/
+@media (max-width: 480px) {
+  .rs-17 .rs-products .product-items-list .product-item {
+    max-width: 90%;
+    margin-top: 0;
+    margin-right: initial;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .rs-17 .rs-products .product-items-list {
+    text-align: center;
+  }
+
+  .rs-17 .rs-products .product-items-list .product-item {
+    max-width: 20%;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .rs-17 .rs-products .product-items-list .product-item {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+}
+
+/*Custom media query*/
+@media (max-width: 1199px) {
+.rs-17 .rs-products .rs-container {
+  text-align: center;
+}
+}
