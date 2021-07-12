@@ -398,7 +398,7 @@
 
   .rs-17-slider__caption .buttons {
     justify-content: center;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
 
   .rs-17-slider__caption .buttons button {
@@ -414,8 +414,8 @@
     font-size: 1.2rem;
   }
 
-  .rs-17-slider__swiper-pagination.swiper-pagination {
-    bottom: 35px;
+  .rs-slider-swiper-pagination.wrapper {
+    bottom: 8%;
   }
 }
 
@@ -614,11 +614,10 @@
     font-size: 1.8rem;
   }
 
-  .rs-17-slider__caption .buttons {
-    margin-top: 3rem;
-  }
-
   .rs-17-slider__caption .buttons button {
+    margin-top: 30px;
+    margin-right: 3rem;
+    padding: 1.8rem 3.7rem;
     font-size: 1.3rem;
   }
 }
