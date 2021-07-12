@@ -614,6 +614,10 @@
     font-size: 1.8rem;
   }
 
+  .rs-17-slider__caption .buttons {
+    margin-top: 3rem;
+  }
+
   .rs-17-slider__caption .buttons button {
     font-size: 1.3rem;
   }
