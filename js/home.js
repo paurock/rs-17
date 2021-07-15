@@ -26,7 +26,20 @@ const swiper = new Swiper(".mySwiper-products", {
   loop: true,
   freeMode: true,
   navigation: {
-    nextEl: ".rs-17-products__next",
-    prevEl: ".rs-17-products__prev"
+    nextEl: ".products-next",
+    prevEl: ".products-prev"
   },
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 4
+    }
+  }
 });
