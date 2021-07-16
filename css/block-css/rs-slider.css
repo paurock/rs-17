@@ -593,10 +593,11 @@
 
   .rs-17-slider__photo img {
     height: 80%;
+    width:54%;
     margin-top: 47px;
     margin-left: 34%;
   }
-
+ 
   .rs-17-slider__caption {
     padding: 0;
     max-width: 50vw;
@@ -693,3 +694,4 @@
     margin-left: 100px;
   }
 }
+
