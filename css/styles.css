@@ -8,4 +8,6 @@ body {
   max-width: 1920px;
 }
 
- 
+*:focus {
+  outline: none;
+}
