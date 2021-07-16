@@ -499,6 +499,7 @@
 
   .rs-17-slider__photo img {
     max-height: 100%;
+    max-width: 100%;
     margin-left: 26%;
   }
 
@@ -546,6 +547,7 @@
   }
 
   .rs-17-slider__photo img {
+    max-width:100%;
     max-height: 100%;
     margin-left: 20%;
   }
