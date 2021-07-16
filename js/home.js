@@ -22,7 +22,7 @@ const frontMain = new Swiper(".mySwiper-slider", {
 //Product-slider initialization
 const swiper = new Swiper(".mySwiper-products", {
   slidesPerView: 4,
-  spaceBetween: 15,
+  spaceBetween: 10,
   loop: true,
   freeMode: true,
   navigation: {
