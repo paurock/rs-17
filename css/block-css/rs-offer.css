@@ -1,11 +1,10 @@
 /*offer*/
 .rs-17-offer {
     position: relative;
-    margin-top: 10%;
     background: #000;
     width: 100%;
   }
-  
+
   .rs-17-offer__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -14,7 +13,7 @@
     -webkit-transition-delay: 0.5s;
     transition-delay: 0.5s;
   }
-  
+
   .rs-17-offer__image {
     max-width: 100%;
     display: -webkit-box;
@@ -24,7 +23,7 @@
     -ms-flex-pack: end;
     justify-content: space-between;
   }
-  
+
   .rs-17-offer__photo {
     width: 100%;
     min-width: 45vw;
@@ -32,8 +31,8 @@
   }
   .rs-17-offer__photo img {
     position: relative;
-    right: 0;
-    bottom: 25%;
+    right: -10%;
+    bottom: 10%;
     width: 50%;
   }
 
@@ -44,20 +43,20 @@
     z-index: 0;
     background-image: url('../../img/offer/offer-bg.png');
     background-position-x: 0;
-    background-position-y: 100px;
+    background-position-y: 0;
     min-width: 100%;
     height: 100%;
     text-align: right;
     overflow: hidden;
   }
-  
+
   .rs-17-offer__bg img {
     position: relative;
     max-width: 100%;
     margin-left:20%;
     right: 5%;
   }
-  
+
   .rs-17-offer__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -66,29 +65,34 @@
     width: 100%;
     max-width: 100%;
     z-index: 1;
+    margin-top: 12%;
   }
-  
+
   .rs-17-offer__caption h1 {
     margin: 2rem 0;
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 500;
     color: white;
   }
-  
+
   .rs-17-offer__caption h2 {
     margin: 0;
-    font-size: 12px;
+    font-size: 1rem;
     color: #424242;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
   }
-  
+
   .rs-17-offer__caption p {
     color: white;
-    font-size: 19px;
+    font-size: 1.8rem;
   }
-  
+
+  .rs-17-offer__caption .rs-17-offer__text {
+    padding-left:10px;
+  }
+
   .rs-17-offer__caption .buttons {
     width: 230px;
     height: 70px;
@@ -99,12 +103,12 @@
     display: flex;
     z-index: 2000;
   }
-  
+
   .rs-17-offer__caption .buttons button {
-    margin-top: 0;
+    margin-top: 30px;
     margin-right: 3rem;
-    padding: .8rem .7rem;
-    font-size: 1rem;
+    padding: 1.8rem 3.7rem;
+    font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: 0.1em;
     border: 1px solid #ff7000;
@@ -113,7 +117,7 @@
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
   }
-  
+
   .rs-17-offer__caption .buttons button:hover {
     cursor: pointer;
     border: 1px solid #ff7000;
@@ -121,4 +125,3 @@
     color: #fff;
     outline: none;
   }
-  
