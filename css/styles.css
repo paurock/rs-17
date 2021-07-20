@@ -12,6 +12,6 @@ body {
   outline: none;
 }
 
-.rs-17, rs-17-slider {
+.rs-17, .rs-17-slider {
   overflow-x: hidden;
 }
