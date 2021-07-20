@@ -11,7 +11,3 @@ body {
 *:focus {
   outline: none;
 }
-
-.rs-17, .rs-17-slider {
-  overflow-x: hidden;
-}
