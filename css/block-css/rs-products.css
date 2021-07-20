@@ -111,9 +111,12 @@
 /*Media Queries*/
 @media (max-width: 480px) {
   .rs-17 .rs-products .product-items-list .product-item {
-    max-width: 90%;
+    max-width: 100%;
     margin-top: 0;
     margin-right: initial;
+  }
+  .rs-17 .rs-products .product-items-list .product-item .item-image {
+    max-width: 100%;
   }
   .rs-17 .rs-products .navigation-wrapper {
       justify-content: center;
