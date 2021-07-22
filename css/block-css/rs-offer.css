@@ -96,7 +96,6 @@
 
 .rs-17-offer__caption .buttons {
   width: 230px;
-  height: 70px;
   position: relative;
   width: 100%;
   display: -webkit-box;
@@ -107,6 +106,7 @@
 
 .rs-17-offer__caption .buttons button {
   margin-top: 30px;
+  margin-bottom:30px;
   margin-right: 3rem;
   padding: 1.8rem 3.7rem;
   font-size: 1.3rem;
@@ -129,6 +129,7 @@
 
 /*Media Queries*/
 @media (max-width: 480px) {
+
   .rs-17-offer__content {
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 0;
@@ -146,9 +147,27 @@
     bottom: 60px;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .rs-17-offer__photo img {
+    width:70%;
+  }
 
+}
 @media (min-width: 1200px) and (max-width: 1500px) { 
   .rs-17-offer__photo img {
     width:70%;
+  }
+}
+
+@media (min-width: 1500px) { 
+  .rs-17-offer__photo img {
+    width: initial;
+    right:-20%;
+  }
+  .rs-17-offer__content {
+    margin-top:5%;
+  }
+  .rs-17-offer__caption .rs-17-offer__text {
+    zoom:2;
   }
 }
