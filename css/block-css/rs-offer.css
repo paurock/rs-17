@@ -3,7 +3,6 @@
   position: relative;
   background: #000;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .rs-17-offer__item {
@@ -33,9 +32,7 @@
 
 .rs-17-offer__photo img {
   position: relative;
-  right: -10%;
-  bottom: 10%;
-  width: 50%;
+  z-index:10;
 }
 
 .rs-17-offer__bg {
@@ -47,15 +44,17 @@
   background-position-x: 0;
   background-position-y: 0;
   min-width: 100%;
-  text-align: right;
   overflow: hidden;
+  border:1px solid red;
 }
 
 .rs-17-offer__bg img {
   position: relative;
   max-width: 100%;
-  margin-left: 20%;
-  right: 5%;
+  right: -10%;
+  bottom: 10%;
+  width: 50%;
+  z-index:20;
 }
 
 .rs-17-offer__content {
@@ -106,7 +105,7 @@
 
 .rs-17-offer__caption .buttons button {
   margin-top: 30px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   margin-right: 3rem;
   padding: 1.8rem 3.7rem;
   font-size: 1.3rem;
@@ -147,27 +146,44 @@
     bottom: 60px;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .rs-17-offer__photo img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    width: 100%;
+    
+  }
+}
+
+
+
 @media (min-width: 768px) and (max-width: 991px) {
   .rs-17-offer__photo img {
-    width:70%;
+    width: 70%;
   }
 
 }
-@media (min-width: 1200px) and (max-width: 1500px) { 
+
+@media (min-width: 1200px) and (max-width: 1500px) {
   .rs-17-offer__photo img {
-    width:70%;
+    width: 70%;
   }
 }
 
-@media (min-width: 1500px) { 
+@media (min-width: 1500px) {
   .rs-17-offer__photo img {
     width: initial;
-    right:-20%;
   }
+
   .rs-17-offer__content {
-    margin-top:5%;
+    margin-top: 5%;
   }
+
   .rs-17-offer__caption .rs-17-offer__text {
-    zoom:2;
+    zoom: 2;
   }
 }
